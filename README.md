@@ -15,6 +15,8 @@ Do not use https://replit.com (Not enough resources to run puppeteer)
 
 Try changing timeouts in the codes, speed depends on your machine power
 
+Run `npm audit fix --force && npm rebuild` if package related errors
+
 ## Still not fixed?
 
 DM me on discord -> DRIX10#0001 or Ask in https://discord.gg/bothub
