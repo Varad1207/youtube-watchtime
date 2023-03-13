@@ -5,7 +5,7 @@
 
 1. Clone this repository (`git clone https://github.com/Drix10/youtube-watchtime.git`)
 
-2. Insert your video IDs in `VIDEO-ID-HERE` parts of index.js
+2. Insert your video ID in `VIDEO-ID-HERE` part of index.js
 
 3. Run `npm install && node .` in your console
 
