@@ -18,7 +18,7 @@ const videos = [
       videoPlayer.autoplay = true;
       videoPlayer.loop = true;
     });
-    await page.waitForSelector('video:not([src])');
+    await page.waitForSelector('video:not([src])', { timeout: 60000 });
     console.log(`Video ${i + 1} has ended.`);
   }
   await browser.close();
